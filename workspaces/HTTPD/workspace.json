@@ -16,12 +16,11 @@
   "image_type": "Container",
   "notes": "",
   "architecture": [
-    "amd64",
-    "arm64"
+    "amd64"
   ],
   "compatibility": [
     {
-      "version": "1.17.x",
+      "version": "1.16.x",
       "image": "httpd:latest", 
       "uncompressed_size_mb": 150,
       "available_tags": [
