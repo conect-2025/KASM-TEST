@@ -6,11 +6,11 @@ const nextConfig = {
     description: 'The Kasm conect.',
     icon: '/img/logo.svg',
     listUrl: 'https://conect-2025.github.io/KASM-TEST/',
-    contactUrl: 'https://kasmweb.com/support',
+    contactUrl: 'https://github.com/conect-2025/KASM-TEST/issues',
   },
   reactStrictMode: true,
   swcMinify: true,
-  basePath: '/KASM-TEST/1.0',
+  basePath: '/KASM-TEST/1.1',
   trailingSlash: true,
   images: {
     unoptimized: true,
