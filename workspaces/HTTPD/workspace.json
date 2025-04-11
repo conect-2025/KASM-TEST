@@ -1,1 +1,33 @@
-
+{
+  "friendly_name": "HTTPD",
+  "description": "HTTPD is a way to host a apache webbserver or edit it.",
+  "image_src": "HTTPD.png",
+  "allow_network_selection": true,
+  "cores": 2,
+  "memory": 2048,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Shares",
+  "docker_registry": "https://hub.docker.com/r/conectdocker/httpd",
+  "categories": [
+    "Desktop"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "notes": "",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.16.x",
+      "image": "httpd:latest", 
+      "uncompressed_size_mb": 150,
+      "available_tags": [
+        "latest",
+        "2.4"
+      ]
+    }
+  ]
+}
