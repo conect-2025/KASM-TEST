@@ -7,7 +7,7 @@
   "memory": 2048,
   "gpu_count": 0,
   "cpu_allocation_method": "Shares",
-  "docker_registry": "https://hub.docker.com/r/conectdocker/httpd",
+  "docker_registry": "https://index.docker.io/v1/",
   "categories": [
     "Desktop"
   ],
@@ -21,11 +21,9 @@
   "compatibility": [
     {
       "version": "1.16.x",
-      "image": "httpd:latest", 
+      "image": "conectdocker/conecthttp:1.16.1", 
       "uncompressed_size_mb": 150,
       "available_tags": [
-        "latest",
-        "2.4",
         "1.16.1"
       ]
     }
