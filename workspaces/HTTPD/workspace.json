@@ -25,7 +25,8 @@
       "uncompressed_size_mb": 150,
       "available_tags": [
         "latest",
-        "2.4"
+        "2.4",
+        "1.16.1"
       ]
     }
   ]
