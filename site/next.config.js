@@ -2,7 +2,7 @@
 
 const nextConfig = {
   env: {
-    name: 'conect kasm',
+    name: 'ConectKasm',
     description: 'The Kasm conect.',
     icon: 'https://avatars.githubusercontent.com/u/206035349?v=4',
     listUrl: 'https://conect-2025.github.io/KASM-TEST/',
