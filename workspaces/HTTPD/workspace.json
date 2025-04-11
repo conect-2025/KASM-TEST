@@ -21,7 +21,7 @@
   ],
   "compatibility": [
     {
-      "version": "1.16.x",
+      "version": "1.17.x",
       "image": "httpd:latest", 
       "uncompressed_size_mb": 150,
       "available_tags": [
